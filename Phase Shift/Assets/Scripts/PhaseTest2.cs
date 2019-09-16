@@ -73,6 +73,7 @@ public class PhaseTest2 : MonoBehaviour
 				if (backToDimension1 == true)
 				{
 					player1BController.SetActive(false);
+					player2BController.SetActive(false);
 					player1Controller.SetActive(true);
 				}
 				else if (backToDimension1 == false)
